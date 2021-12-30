@@ -14,7 +14,7 @@ variables:
   dockerRegistryServiceConnection: 'ac5dcdb4-3a01-41d2-ba4c-dd68a7505a6d'
   imageRepository: 'helloworld'
   containerRegistry: 'spanglab.azurecr.io'
-  dockerfilePath: '**/Dockerfile'
+  dockerfilePath: 'samples/aspnetapp/Dockerfile'
   tag: '$(Build.BuildId)'
   imagePullSecret: 'spanglab8476eba2-auth'
 
